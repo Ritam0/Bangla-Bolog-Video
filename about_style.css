@@ -1,0 +1,87 @@
+body{
+    background-image: url(./style/assets/bacground.jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 100%;
+    
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+    justify-content: space-around;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 800;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+/* .cote{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+} */
+/* @keyframes logo {
+    from {width: 0%;}
+    to {width: 500px;}
+} */
+/* .content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 50px;
+} */
+.lazybong{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    gap: 100px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
